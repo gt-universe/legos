@@ -1,0 +1,32 @@
+{
+  "name": "legos-poc",
+  "version": "1.0.0",
+  "description": "Reusable components library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Gaurav Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.37",
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.",
+    "save-dev": "*"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "babel-loader": "^8.2.3",
+    "chromatic": "^6.2.3"
+  }
+}
