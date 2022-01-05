@@ -7,7 +7,7 @@ const Card: React.FC<CardTypes> = (props: CardTypes) => {
     <>
       <div>
         <div>
-          Card Header <span> {isOpen ? "close" : "open"}</span>
+          Card Header <span> {isOpen ? "Close" : "Open"}</span>
         </div>
         <div>Card Body</div>
       </div>

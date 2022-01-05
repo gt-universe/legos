@@ -1,32 +1,41 @@
 {
-  "name": "legos-poc",
+  "name": "legos",
   "version": "1.0.0",
   "description": "Reusable components library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": ""
   },
   "author": "Gaurav Tiwari",
   "license": "ISC",
   "dependencies": {
     "@types/react": "^17.0.37",
     "react": ">=17.0.0",
-    "react-dom": ">=17.0.",
+    "react-dom": ">=17.0.0",
     "save-dev": "*"
   },
   "peerDependencies": {
     "react": ">=17.0.0",
-    "react-dom": ">=17.0."
+    "react-dom": ">=17.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.2",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-links": "^6.4.9",
     "@storybook/react": "^6.4.9",
     "babel-loader": "^8.2.3",
-    "chromatic": "^6.2.3"
+    "chromatic": "^6.2.3",
+    "node-sass": "^7.0.1",
+    "rollup": "^2.62.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.4"
   }
 }

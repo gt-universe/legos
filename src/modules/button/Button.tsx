@@ -4,7 +4,7 @@ import ButtonTypes from "./types/ButtonTypes";
 const Button: React.FC<ButtonTypes> = (props) => {
   return (
     <>
-      <button></button>
+      <button>{props.caption}</button>
     </>
   );
 };
