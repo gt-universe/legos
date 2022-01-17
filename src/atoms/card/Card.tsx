@@ -14,3 +14,6 @@ const Card: React.FC<CardTypes> = (props: CardTypes) => {
     </>
   );
 };
+
+
+export default Card;
