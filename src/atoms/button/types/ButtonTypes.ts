@@ -6,6 +6,7 @@ interface ButtonTypes {
 
   // color to be shown in the button background
   color: string;
+  
   /**
    * Primary button use case
    */

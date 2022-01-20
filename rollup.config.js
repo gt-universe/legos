@@ -5,7 +5,7 @@ import typescript from "rollup-plugin-typescript2";
 import postcss from "rollup-plugin-postcss";
 import image from '@rollup/plugin-image';
 import json from '@rollup/plugin-json';
-//import { terser } from "rollup-plugin-terser";
+import { terser } from "rollup-plugin-terser";
 
 const packageJson = require("./package.json");
 
@@ -30,8 +30,8 @@ const configuration = {
     typescript({ useTsconfigDeclarationDir: true }), // to ensure the TS config is taken from the config file only
     postcss(), // to use SCSS in the project
     image(), // enable the importing of image
-    json() // support importing the JSON
-    //  terser(), // to ensure the tree shaking
+    json(), // support importing the JSON
+    terser(), // to ensure the tree shaking
   ],
 };
 
